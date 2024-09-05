@@ -13,6 +13,12 @@ var students = {
     isPassed: true, // boolean
     img:"https://cdn-icons-png.flaticon.com/512/2784/2784461.png"
 }
+delete students.id
+delete students.sname
+delete students.isPassed
+delete students.img
+delete students
+
 
 // console.log(students);
 
